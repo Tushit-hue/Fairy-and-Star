@@ -70,5 +70,6 @@ function keyPressed() {
 	}
 	if (starBody.position.y>470) {
 		Body.setStatic(starBody,true)
+		fairyVoice.play();
 	}
 }
